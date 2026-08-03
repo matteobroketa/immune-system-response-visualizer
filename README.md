@@ -24,7 +24,7 @@ The visualizer presents a continuous immune-response narrative rather than a cli
 
 ## Important interpretation boundary
 
-This is a **phenomenological educational model**. Values are relative model outputs, not clinical measurements, diagnostic results or individualized predictions. Many timings are informed by murine intravital imaging, while selected humoral-response kinetics draw on human vaccination studies. See [Scientific basis](docs/SCIENTIFIC_BASIS.md) and [Model reference](docs/MODEL_REFERENCE.md).
+Values are relative model outputs, not clinical measurements, diagnostic results or individualized predictions. Many timings are informed by murine intravital imaging, while selected humoral-response kinetics draw on human vaccination studies. See [Scientific basis](docs/SCIENTIFIC_BASIS.md) and [Model reference](docs/MODEL_REFERENCE.md).
 
 ## Repository layout
 
@@ -55,37 +55,6 @@ This is a **phenomenological educational model**. Values are relative model outp
 └── SECURITY.md
 ```
 
-## Run locally
-
-Opening `index.html` directly works for most features. A local HTTP server is recommended because it matches GitHub Pages behavior:
-
-```bash
-python scripts/serve.py
-```
-
-Then open `http://localhost:8000/`.
-
-Validate the repository with:
-
-```bash
-node scripts/validate.mjs
-```
-
-## Deploy to GitHub Pages
-
-1. Create a public repository named `immune-system-response-visualizer`.
-2. Copy this package into the repository root.
-3. Push to the `main` branch.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment**, select **GitHub Actions** as the source.
-6. The included workflow publishes the static site after every push to `main`.
-
-The expected project URL is:
-
-```text
-https://matteobroketa.github.io/immune-system-response-visualizer/
-```
-
 ## Public model interfaces
 
 The page exposes a small browser API:
@@ -101,17 +70,6 @@ window.immuneChoreography.exportCSV();
 
 See [Data and API](docs/DATA_AND_API.md) for the full CSV dictionary and URL-state parameters.
 
-## Suggested repository description
-
-> A local-first visual model of immune-cell movement, germinal-centre selection, antibody responses, signalling programs and tertiary lymphoid organisation.
-
-Suggested topics:
-
-```text
-immunology immune-system scientific-visualization simulation agent-based-model
-lymph-node germinal-center antibodies canvas vanilla-javascript github-pages
-education local-first offline-first
-```
 
 ## Citation
 
