@@ -1,0 +1,18 @@
+{
+  "name": "Immune System Response Visualizer",
+  "short_name": "Immune Visualizer",
+  "description": "A local-first visual model of immune responses and lymphoid choreography.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05080d",
+  "theme_color": "#070b11",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

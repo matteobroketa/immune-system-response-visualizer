@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using this metadata."
+title: "Immune System Response Visualizer"
+type: software
+authors:
+  - family-names: "Broketa"
+    given-names: "Matteo"
+version: "3.0.0"
+date-released: "2026-08-03"
+license: MIT
+repository-code: "https://github.com/matteobroketa/immune-system-response-visualizer"
+url: "https://matteobroketa.github.io/immune-system-response-visualizer/"
+abstract: "A local-first, literature-constrained visual model of immune-cell movement, lymph-node priming, germinal-centre selection, antibody responses, signalling programs and tertiary lymphoid organisation."
+keywords:
+  - immunology
+  - immune system
+  - scientific visualization
+  - germinal centre
+  - lymph node
+  - agent-based visualization

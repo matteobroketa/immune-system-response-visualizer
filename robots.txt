@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://matteobroketa.github.io/immune-system-response-visualizer/sitemap.xml

@@ -1,0 +1,46 @@
+column,unit_or_type,description
+scenario,category,Selected response scenario.
+seed,integer,Deterministic seed.
+day,simulated days,Biological time.
+antigen,relative 0-1,Antigen burden activity.
+inflammation,relative 0-1,Inflammatory activity.
+dc_activity,relative 0-1,Dendritic-cell migration/presentation activity.
+t_priming,relative 0-1+,T-cell priming envelope.
+t_expansion,relative,Activated T-cell expansion activity.
+cd8_population_activity,relative,Effector CD8 population activity.
+cd8_function,relative 0-1,Cytotoxic function after exhaustion penalty.
+cd8_exhaustion,relative 0-1,Chronic exhaustion state.
+gc_activity,relative 0-1,Germinal-centre response activity.
+plasma_activity,relative 0-1,Plasmablast/plasma lineage activity.
+antibody_activity,relative 0-1,Aggregate antibody activity.
+memory_activity,relative 0-1,Memory formation/activity.
+tls_activity,relative 0-1,Tertiary lymphoid organisation.
+titre_preexisting,relative titre,Pre-existing antibody component.
+titre_early,relative titre,Early extrafollicular component.
+titre_gc_derived,relative titre,GC-derived component.
+titre_persistent,relative titre,Persistent plasma-cell component.
+titre_total,relative titre,Sum of titre components.
+median_affinity,relative 0-1,Median repertoire affinity proxy.
+functional_binding,relative,Titre adjusted by affinity and scenario match.
+clonal_diversity,relative 0-1,Repertoire-diversity proxy.
+dominant_clone_share,relative 0-1,Dominant-clone share proxy.
+positive_selection,relative 0-1,GC positive-selection activity.
+signal_antiviral,relative 0-1,Grouped antiviral signalling program.
+signal_inflammatory,relative 0-1,Grouped inflammatory program.
+signal_priming,relative 0-1,Grouped priming/costimulation program.
+signal_follicular,relative 0-1,Grouped follicular-help program.
+signal_resolution,relative 0-1,Grouped resolution/repair program.
+signal_exhaustion,relative 0-1,CD8 exhaustion state.
+cells_neutrophil,weighted representatives,Weighted biological abundance for neutrophil.
+cells_macrophage,weighted representatives,Weighted biological abundance for macrophage.
+cells_monocyte,weighted representatives,Weighted biological abundance for monocyte.
+cells_dc,weighted representatives,Weighted biological abundance for dc.
+cells_nk,weighted representatives,Weighted biological abundance for nk.
+cells_naiveT,weighted representatives,Weighted biological abundance for naiveT.
+cells_helperT,weighted representatives,Weighted biological abundance for helperT.
+cells_cd8,weighted representatives,Weighted biological abundance for cd8.
+cells_tfh,weighted representatives,Weighted biological abundance for tfh.
+cells_naiveB,weighted representatives,Weighted biological abundance for naiveB.
+cells_gcB,weighted representatives,Weighted biological abundance for gcB.
+cells_plasma,weighted representatives,Weighted biological abundance for plasma.
+cells_memory,weighted representatives,Weighted biological abundance for memory.

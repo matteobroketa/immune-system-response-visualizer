@@ -1,0 +1,15 @@
+model_feature,default_or_range,unit,evidence_basis,model_usage,confidence,source
+Naive T-cell motility,~11 average; peaks >25,um/min,Mouse lymph-node intravital imaging,Relative agent speed and persistent random walk,high,https://doi.org/10.1073/pnas.2628040100
+Follicular B-cell motility,slower than naive T cells; commonly ~5-7,um/min,Two-photon lymph-node imaging and reviews,Relative agent speed,moderate,https://pubmed.ncbi.nlm.nih.gov/12016203/
+Rapid follicular antigen acquisition,minutes,time after lymph-borne exposure,Mouse lymph-node imaging,Antigen reaches node before migratory DC wave,high,https://pubmed.ncbi.nlm.nih.gov/17379546/
+T-cell early scanning phase,up to ~8,hours,Intravital priming studies,Brief-contact state before stable engagement,moderate,https://pmc.ncbi.nlm.nih.gov/articles/PMC6927575/
+T-cell priming duration,~3-4,days,Mouse lymph-node priming studies,Priming/egress ordering,moderate,https://pmc.ncbi.nlm.nih.gov/articles/PMC5940264/
+GC emergence,~4-7,days after immunization,Mouse immunization literature,Delayed GC onset envelope,moderate,https://pmc.ncbi.nlm.nih.gov/articles/PMC4399774/
+GC zone migration,~4-6,hours for substantial dark-to-light redistribution,Photoactivation imaging,Microscopic zone-cycle guidance,moderate,https://pmc.ncbi.nlm.nih.gov/articles/PMC3102384/
+Tfh-regulated GC division,help dependent,relative,Mouse GC selection experiments,Affinity/help controls expansion and mutation,high,https://pubmed.ncbi.nlm.nih.gov/24805232/
+Human plasmablast peak,~1,week after booster,Human mRNA vaccination,Early titre component timing,high,https://doi.org/10.1038/s41586-021-03738-2
+Human vaccine GC persistence,>=12,weeks after booster,Human lymph-node aspiration study,Prevents universal short GC shutdown,high,https://doi.org/10.1038/s41586-021-03738-2
+Extended human affinity maturation,>=6,months in selected vaccine cohorts,Human longitudinal GC study,Long-duration contextual boundary,moderate,https://doi.org/10.1038/s41586-022-04527-1
+Chronic CD8 exhaustion,persistent antigen associated,qualitative,Chronic infection/cancer literature,Separates population activity from function,high,https://pubmed.ncbi.nlm.nih.gov/30676822/
+Older-age GC impairment,reduced and disorganized,qualitative,Ageing/Tfh/GC reviews,Age response factor,moderate,https://pubmed.ncbi.nlm.nih.gov/24217812/
+TLS formation,persistent inflammation required; no universal clock,qualitative,Multi-organ TLS literature,Conditional ectopic organization,moderate,https://pmc.ncbi.nlm.nih.gov/articles/PMC11358547/

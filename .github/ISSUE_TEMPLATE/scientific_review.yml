@@ -1,0 +1,36 @@
+name: Scientific model review
+description: Challenge or improve a biological assumption, equation or parameter
+title: "[Scientific review]: "
+labels: [science-review]
+body:
+  - type: textarea
+    id: current
+    attributes:
+      label: Current model behavior
+      description: Identify the scenario, output, equation or visual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Scientific concern
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+      description: Prefer primary literature and state species, tissue, assay and exposure context.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed model change
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Interpretation
+      options:
+        - label: I understand that outputs are relative and not clinical measurements.
+          required: true
